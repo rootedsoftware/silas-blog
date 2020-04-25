@@ -12,28 +12,26 @@ export default function Home() {
         <h1 className="title">TKKN</h1>
 
         <p className="description">
-          <code>(The Krazy Kids News)</code>
+          <code>News</code>
         </p>
 
         <div className="grid">
-          <a href="/our-story" className="card">
-            <h3>Our Story &rarr;</h3>
-            <p>Learn more about our story.</p>
+          <a href="/articles/premium2019-2020" className="card">
+            <h3>Premium 2019-2020</h3>
+            <p>
+              This article lists the top 3 best fans and writers of TKKN for our
+              first year. Read the full story &rarr;
+            </p>
           </a>
 
-          <a href="/news" className="card">
-            <h3>News Articles &rarr;</h3>
-            <p>Read the latest!</p>
-          </a>
-
-          <a href="/get-interviewed" className="card">
-            <h3>Get Interviewed &rarr;</h3>
-            <p>Want to appear in TKKN? Click here</p>
-          </a>
-
-          <a href="https://www.cpls.org/blog/" className="card">
-            <h3>School News &rarr;</h3>
-            <p>See what's new at CPLS</p>
+          <a href="/articles/positivity" className="card">
+            <h3>YouTuber's share their positivity</h3>
+            <p>
+              Google's YouTube channel overflows everyday with more and more
+              viewers waiting to watch. This article is about some YouTubers who
+              were showing positivity during a time with none. Read the full
+              story &rarr;
+            </p>
           </a>
         </div>
       </main>
@@ -133,7 +131,7 @@ export default function Home() {
 
         .card {
           margin: 1rem;
-          flex-basis: 45%;
+          flex-basis: 95%;
           padding: 1.5rem;
           text-align: left;
           color: inherit;

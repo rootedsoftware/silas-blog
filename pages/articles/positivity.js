@@ -9,32 +9,42 @@ export default function Home() {
       </Head>
 
       <main>
+        <h3>Youtubers Share Thoughts, Positivity</h3>
         <h1 className="title">TKKN</h1>
 
         <p className="description">
-          <code>(The Krazy Kids News)</code>
+          <code>Zach King</code>
         </p>
 
         <div className="grid">
-          <a href="/our-story" className="card">
-            <h3>Our Story &rarr;</h3>
-            <p>Learn more about our story.</p>
-          </a>
-
-          <a href="/news" className="card">
-            <h3>News Articles &rarr;</h3>
-            <p>Read the latest!</p>
-          </a>
-
-          <a href="/get-interviewed" className="card">
-            <h3>Get Interviewed &rarr;</h3>
-            <p>Want to appear in TKKN? Click here</p>
-          </a>
-
-          <a href="https://www.cpls.org/blog/" className="card">
-            <h3>School News &rarr;</h3>
-            <p>See what's new at CPLS</p>
-          </a>
+          <h2></h2>
+          <div className="card">
+            <img
+              src="/images/Zach_King_Photo.jpg"
+              alt="Zach King"
+              width="100%"
+            />
+            <br />
+            <br />
+            <p>
+              Google’s YouTube Channel overflows with more than 10 million
+              people, and it becomes a huge way to be accessed for attention.
+              Youtubers like ‘Zach King’, and others are saying Words of
+              encouragement throughout their videos. Zach King suggests ”A good,
+              video or two” that you should make, and send to him “For
+              commenting, and great joy through this pandemic.” ‘Zach King’ in a
+              video throughout his “Magical Universe” [Photo By Youtube
+              Association Film.] ’Zach King’ By what he variously calls himself.
+              Throughout videos I encourage you guys to do something he suggests
+              on his channel. Watch his videos(If wishing to), At{' '}
+              <a href="https://www.youtube.com/user/ZachKingVine">Zach King</a>.
+              His words of encouragement are huge and you all need to mention it
+              to me when you see his videos. IF ANY OTHER YOUTUBERS SHOW UP THAT
+              YOU KNOW OF, TELL ME. AND A FEW OF THEIR ENCOURAGING QUOTES. Zach
+              King At Youtube.com/APRIL 2020,BEST ENCOURAGEMENTS:
+              <a href="https://youtube.com">youtubers</a>
+            </p>
+          </div>
         </div>
       </main>
 
@@ -81,8 +91,7 @@ export default function Home() {
         }
 
         a {
-          color: inherit;
-          text-decoration: none;
+          color: #0070f3;
         }
 
         .title a {
@@ -133,21 +142,13 @@ export default function Home() {
 
         .card {
           margin: 1rem;
-          flex-basis: 45%;
+          flex-basis: 95%;
           padding: 1.5rem;
           text-align: left;
           color: inherit;
-          text-decoration: none;
           border: 1px solid #eaeaea;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
         }
 
         .card h3 {

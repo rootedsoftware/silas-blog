@@ -4,37 +4,36 @@ export default function Home() {
   return (
     <div className="container" style={{ backgroundColor: '#e6e6e4' }}>
       <Head>
-        <title>TKKN</title>
+        <title>Our Story</title>
         <link rel="icon" href="/🗞️.png" />
       </Head>
 
       <main>
-        <h1 className="title">TKKN</h1>
+        <h1 className="title">Our Story</h1>
 
         <p className="description">
           <code>(The Krazy Kids News)</code>
         </p>
 
         <div className="grid">
-          <a href="/our-story" className="card">
-            <h3>Our Story &rarr;</h3>
-            <p>Learn more about our story.</p>
-          </a>
-
-          <a href="/news" className="card">
-            <h3>News Articles &rarr;</h3>
-            <p>Read the latest!</p>
-          </a>
-
-          <a href="/get-interviewed" className="card">
-            <h3>Get Interviewed &rarr;</h3>
-            <p>Want to appear in TKKN? Click here</p>
-          </a>
-
-          <a href="https://www.cpls.org/blog/" className="card">
-            <h3>School News &rarr;</h3>
-            <p>See what's new at CPLS</p>
-          </a>
+          <p
+            style={{
+              fontSize: '1.2em',
+              lineHeight: '1.75em',
+              textIndent: '2.5em',
+            }}
+          >
+            We started this journalism with NO helpers. But until I realized
+            that it was because when I explained it to friends it seemed to them
+            like the journalism highlight was me. So two months later I came
+            back to wanting journalists, and I even had classmates to help me
+            spread the journalist request,everybody in my class applied. And
+            that’s when at the same time a friend came up to me, and said,
+            <code>You’re a team leader.You deserve to lead the newspaper.</code>
+            Then they said,<code>You need to have a title.</code>I replied:
+            <code>I don’t have one.</code>Then they said,
+            <code>Here. The Krazy Kids News.</code>
+          </p>
         </div>
       </main>
 

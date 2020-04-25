@@ -9,32 +9,36 @@ export default function Home() {
       </Head>
 
       <main>
+        <h3>
+          VOL. 2 NO. 60 FRIDAY APRIL 17 - THURSDAY APRIL 23,2020
+          2019-2020/PRMM/PREMIUM/EVENTS/2019-2020/KRAZY
+        </h3>
         <h1 className="title">TKKN</h1>
 
         <p className="description">
-          <code>(The Krazy Kids News)</code>
+          <code>VOL. 2 NO. 60</code>
         </p>
 
         <div className="grid">
-          <a href="/our-story" className="card">
-            <h3>Our Story &rarr;</h3>
-            <p>Learn more about our story.</p>
-          </a>
-
-          <a href="/news" className="card">
-            <h3>News Articles &rarr;</h3>
-            <p>Read the latest!</p>
-          </a>
-
-          <a href="/get-interviewed" className="card">
-            <h3>Get Interviewed &rarr;</h3>
-            <p>Want to appear in TKKN? Click here</p>
-          </a>
-
-          <a href="https://www.cpls.org/blog/" className="card">
-            <h3>School News &rarr;</h3>
-            <p>See what's new at CPLS</p>
-          </a>
+          <h2>
+            Winners For Top-5 Best Writers, and Top-5 Best Fans 19-20 3/10 Fans
+            and Writers
+          </h2>
+          <div className="card">
+            <p>
+              THANK YOU ALL FOR YOUR "KRAZY" GREAT HELP!!!!!!!!!!!! This year
+              was a great year and I hope to do a summer journalism so that
+              summertime can be funner than just a great day to relax,
+              but,because of everyone’s participation, I can do a lot of the
+              journalism by myself and about you guys, and your hard work. Stay
+              tuned for more premium, e-edition,special edition, and limited
+              editions. And remember, if you have a birthday during this time,
+              you can submit a birthday, and then I WILL Put you on the
+              following, or the following, following edition front page,
+              because, darn virus if you can’t celebrate it. Have a great day
+              See you next time.
+            </p>
+          </div>
         </div>
       </main>
 
@@ -133,7 +137,7 @@ export default function Home() {
 
         .card {
           margin: 1rem;
-          flex-basis: 45%;
+          flex-basis: 95%;
           padding: 1.5rem;
           text-align: left;
           color: inherit;
@@ -141,13 +145,6 @@ export default function Home() {
           border: 1px solid #eaeaea;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
         }
 
         .card h3 {
